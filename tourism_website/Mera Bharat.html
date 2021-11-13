@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mere barath</title>
+    <style>
+        body{
+            width: 100%; height: 100vh;
+            background-image: url(taj2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 00;
+            margin: 00;
+        }
+
+        .aa{
+            display: flex;
+            justify-content: space-around;
+            background-color: rgba( 0, 0, 0, 0.2);
+            height: 10vh;
+            width: 100%;
+            align-items: center;
+            text-transform: uppercase;
+            color: white;
+            justify-content: space-between;
+        }
+        .aa .menu{
+            width: 40%;
+            display: flex;
+            justify-content: space-between;
+            justify-content: space-around;
+
+
+        }
+        .aa .menu a{
+            width: 25%;
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+        }
+        .bb{
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .cc{
+            padding: 12px 30px;
+            border-radius: 4px;
+            outline: none;
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            letter-spacing: 1px;
+            transition: all;
+        }
+        .cc h2{
+            font-size: 20px; font-weight: 200; letter-spacing: 3px;
+            text-shadow: 1px 1px 2px 2px;
+        }
+        .cc h3{
+            margin: 10px 0 5px 0;
+            font-size: 30px;
+            font-weight: 200;
+            text-shadow: 2px 1px 5px black;
+            text-transform: uppercase;
+        }
+        .cc a{
+            padding: 12px 30px;
+            border-radius: 4px;
+            outline: none;
+            text-transform: uppercase;
+            font-size: 13px;
+            font-weight: 500;
+            text-decoration: none;
+            letter-spacing: 1px;
+            transition: all;
+        }
+        .button1{
+            background: #fff;
+            color: #000;
+        }
+        .button2{
+            background-color: #00b894;
+            color: white;
+        }
+        .button1:hover{
+            background: #00b894;
+            color: white;
+        }
+        .button2:hover{
+            background: #fff;
+            color: #000;
+        }
+        .change-content:after{
+            content: '';
+            animation: changetext 10s infinite linear;
+        }
+        .aa{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+            background-color:skyblue;
+            text-decoration: none;
+
+        }
+        .vv{
+            display: inline;
+            position: relative;
+            padding: 20px;
+
+        }
+        .dropdown{
+            display: none;
+            position: absolute;
+            padding: 20px;
+            text-decoration: none;
+
+        }
+        .vv:hover .dropdown{
+            display: block;
+            background-color: skyblue;
+            padding: 20px;
+            line-height: 2;
+            margin-right: 150px;
+        } 
+        .logo{
+            /* width:1%; */
+            height: 5px;
+            margin-left: 1%;
+            margin-top: -4%;
+        }       
+
+        a{
+            text-decoration: none;
+            color: white;
+        }
+</style>
+</head>
+<body>
+    <div class="aa">
+        <div class="logo"><img src="bharat.jpg" alt="" width="30%"></div>
+        <div>Mera Bharat</div>
+        <div class="vv">Home
+            <div class="dropdown">
+                <div>Delhi</div>
+                <div>pune</div>
+                <div>Munbai</div>
+                <div>bengalore</div>
+            </div>
+        </div>
+        
+            <div class="gal"> <a href="GALLERY.html">GALLERY</a></div> 
+            <div class="gal"> <a href="ABOUT.html">ABOUT</a></div>
+            <div class="gal"><a href="CONTACT">CONTACT</a></div>
+        </div>
+
+    </div>
+
+    <div class="bb">
+        <section class="cc">
+            <h2>Well come To India</h2>
+            <h3>DO COME & VISIT <span class="change-contet"></span></h3>
+            <p>India once is not enough<p>
+            <a href="Learn more.html" class="button1">Learn more</a>
+            <a href="signup.html" class="button2">signup</a>
+        </section>
+
+    </div>
+</body>
+</html>
